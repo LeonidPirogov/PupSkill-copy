@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B309E9DD2E45DB890052FC7F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309E9DC2E45DB890052FC7F /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B309E9742E44D7AA0052FC7F /* PupSkill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PupSkill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309E9DC2E45DB890052FC7F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B309E9DD2E45DB890052FC7F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				B309E9762E44D7AA0052FC7F /* PupSkill */,
+				B309E9DB2E45DB880052FC7F /* Frameworks */,
 				B309E9752E44D7AA0052FC7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +63,14 @@
 				B309E9742E44D7AA0052FC7F /* PupSkill.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B309E9DB2E45DB880052FC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B309E9DC2E45DB890052FC7F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
